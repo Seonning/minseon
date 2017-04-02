@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Amatic SC';
     margin: 0;
     padding: 0;
 }
@@ -62,23 +62,23 @@ header{
     height: 600px;
     width: 960px;
     padding: 0, auto;
-    background-image: url("./background.jpg");    
+    background-image: url("./background_panda.jpg");    
     background-size: cover;
     background-color: #5050FF;
     }
-
+    
 #title{
     font-size: 100px;
     color: black;
     background-color: white;
     text-align: center;
     opacity: 0.45; 
-
 }
 
 #explain{
     font-size: 20px;
-    color: black;
+    color: white;
+    text-align: center;
     padding: 20px 20px 20px 20px;
 }
 
@@ -96,23 +96,29 @@ section{
     justify-content: space-between;
 }
 
-.container{
+#container{
     font-size: 18px;
     color: white;
+    padding-top: 20px;
+}
+
+.content{
+    text-align: center;
 }
 
 
 article{
     float: left;
     width: 300px
-    /*margin-right: 15px;*/
 }
 
 img{
     width: 300px;
     height: 300px;
     float: left;
-    padding-top: 10px
+    border-style: dashed;
+    border-color: white;
+    border-radius: 20px;
     
 }
 
